@@ -19,7 +19,7 @@ local function hi(group, styles)
 end
 
 local bg_normal   = '#282838'
-local bg_darker   = '#222632'
+local bg_darker   = '#242434'
 local bg_dark     = '#2b2b3b'
 local bg          = '#393d4e'
 local bg_light    = '#42475d'
@@ -68,9 +68,9 @@ hi('NormalFloat' , { bg = bg_darker })
 hi('FloatBorder' , { fg = vis, bg = bg_darker })
 
 hi('Pmenu'       , { bg = bg_darker, fg = fg_light })
-hi('PmenuSel'    , { bg = cyan, fg = bg_lighter, gui = 'bold' })
-hi('PmenuSbar'   , { bg = bg_lighter })
-hi('PmenuThumb'  , { bg = fg })
+hi('PmenuSel'    , { bg = bg, fg = fg_light })
+hi('PmenuSbar'   , { bg = bg_darker })
+hi('PmenuThumb'  , { bg = vis_light })
 hi('Search'      , { bg = vis })
 hi('SpellBad'    , { gui = 'underline', sp = red })
 hi('SpellCap'    , { gui = 'underline', sp = yellow })
