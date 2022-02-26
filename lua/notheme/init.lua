@@ -63,7 +63,10 @@ hi('LineNr'      , { fg = vis })
 hi('CursorLineNr', { fg = fg_dark })
 hi('MatchParen'  , { fg = "NONE", bg = bg_light })
 hi('Normal'      , { fg = fg_light, bg = bg_normal })
+
 hi('NormalFloat' , { bg = bg_darker })
+hi('FloatBorder' , { fg = vis, bg = bg_darker })
+
 hi('Pmenu'       , { bg = bg_darker, fg = fg_light })
 hi('PmenuSel'    , { bg = cyan, fg = bg_lighter, gui = 'bold' })
 hi('PmenuSbar'   , { bg = bg_lighter })
@@ -171,7 +174,6 @@ hi('DiagnosticError'      , { fg = red })
 hi('DiagnosticWarn'       , { fg = yellow })
 hi('DiagnosticHint'       , { fg = green })
 hi('DiagnosticMessage'    , { fg = fg })
-
 -- }}}
 
 -- tree-sitter highlight {{{
