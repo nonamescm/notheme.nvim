@@ -44,7 +44,7 @@ local white       = '#ffffff'
 
 -- Editor Highlight Groups {{{
 
-hi('CursorLine'  , { bg = bg })
+hi('CursorLine'  , { bg = "NONE" })
 hi('Cursor'      , { fg = bg_dark, bg = yellow })
 hi('Directory'   , { fg = blue, gui = 'bold' })
 hi('DiffAdd'     , { fg = green })
@@ -59,8 +59,8 @@ hi('FoldColumn'  , { fg = yellow })
 hi('SignColumn'  , { fg = yellow })
 hi('IncSearch'   , { bg = yellow, fg = bg })
 hi('Substitute'  , { bg = blue, fg = bg })
-hi('LineNr'      , { fg = fg_dark })
-hi('CursorLineNr', { fg = fg })
+hi('LineNr'      , { fg = vis })
+hi('CursorLineNr', { fg = fg_dark })
 hi('MatchParen'  , { fg = "NONE", bg = bg_light })
 hi('Normal'      , { fg = fg_light, bg = bg_normal })
 hi('NormalFloat' , { bg = bg_darker })
