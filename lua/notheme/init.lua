@@ -167,31 +167,10 @@ hi('Todo'          , { fg = purple, gui = 'bold' })
 -- }}}
 
 -- Lsp Highlight {{{
-
-hi('LspDiagnosticsDefaultError'      , { fg = red })
-hi('LspDiagnosticsDefaultWarning'    , { fg = yellow })
-hi('LspDiagnosticsDefaultHint'       , { fg = green })
-hi('LspDiagnosticsDefaultMessage'    , { fg = fg })
-
-hi('LspDiagnosticsFloatingError'     , { fg = red, gui = 'underline' })
-hi('LspDiagnosticsFloatingWarning'   , { fg = yellow, gui = 'underline' })
-hi('LspDiagnosticsFloatingHint'      , { fg = green, gui = 'underline' })
-hi('LspDiagnosticsFloatingMessage'   , { fg = fg, gui = 'underline' })
-
-hi('LspDiagnosticsSignError'         , { fg = red, gui = 'italic' })
-hi('LspDiagnosticsSignWarning'       , { fg = yellow, gui = 'italic' })
-hi('LspDiagnosticsSignHint'          , { fg = green, gui = 'italic' })
-hi('LspDiagnosticsSignMessage'       , { fg = fg, gui = 'italic' })
-
-hi('LspDiagnosticsUnderlineError'    , { gui = 'underline' })
-hi('LspDiagnosticsUnderlineWarning'  , { gui = 'underline' })
-hi('LspDiagnosticsUnderlineHint'     , { gui = 'underline' })
-hi('LspDiagnosticsUnderlineMessage'  , { gui = 'underline' })
-
-hi('LspDiagnosticsVirtualTextError'  , { fg = red, gui = 'bold' })
-hi('LspDiagnosticsVirtualTextWarning', { fg = yellow, gui = 'bold' })
-hi('LspDiagnosticsVirtualTextHint'   , { fg = green, gui = 'bold' })
-hi('LspDiagnosticsVirtualTextMessage', { fg = fg, gui = 'bold' })
+hi('DiagnosticError'      , { fg = red })
+hi('DiagnosticWarn'       , { fg = yellow })
+hi('DiagnosticHint'       , { fg = green })
+hi('DiagnosticMessage'    , { fg = fg })
 
 -- }}}
 
