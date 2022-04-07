@@ -150,9 +150,9 @@ hi('PreProc'       , { fg = yellow })
 hi('PreCondit'     , { fg = yellow })
 
 hi('Type'          , { fg = yellow })
-hi('StorageClass'  , { fg = yellow })
-hi('Structure'     , { fg = yellow })
-hi('Typedef'       , { fg = yellow })
+hi('StorageClass'  , { fg = purple })
+hi('Structure'     , { fg = purple })
+hi('Typedef'       , { fg = purple })
 
 hi('Special'       , { })
 hi('SpecialChar'   , { })
