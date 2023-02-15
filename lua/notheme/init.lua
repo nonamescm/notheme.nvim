@@ -164,7 +164,7 @@ hi("SpecialKey"    , { fg = fg_light })
 hi("Tag"           , { fg = orange })
 hi("SpecialComment", { fg = fg_dark, gui = "bold" })
 hi("Debug"         , {})
-hi("Delimiter"     , {})
+hi("Delimiter"     , { fg = heavy_red })
 
 hi("Ignore"        , {})
 hi("Underlined"    , { gui = "underline" })
